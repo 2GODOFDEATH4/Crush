@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("assets/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.container{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.element{
+  position: absolute;
+  background-image: url("assets/paper.jpg");
+  background-size: cover;
+  cursor: move;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-family: 'Zeyada', cursive;
+}
+.Love p{
+  position: relative;
+  top: 427px;
+  left: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
