@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url("assets/back.jpg");
+  background-image: url("back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
